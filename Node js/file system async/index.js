@@ -1,0 +1,29 @@
+const fs=require('fs');
+// fs.mkdir('asyncfolder',(err)=>{
+//     if(!err)
+//     {
+//         console.log("success");
+//     }
+// });
+// fs.rmdir('asyncfolder',(err)=>{
+//     console.log("success");
+// });
+// fs.writeFile('asyncfile.txt',"this is async file text",(err)=>{
+//     console.log("success");
+// });
+// fs.rename('asyncfile.txt','changedasyncfile.txt',(err)=>{
+//     console.log('success');
+// })
+// fs.appendFile('changedasyncfile.txt'," Added text",(err)=>{console.log('success');})
+// fs.readFile('changedasyncfile.txt',(err,data)=>{
+//     if(!err)
+//     {
+//         console.log(data);
+//     }
+// })
+// fs.readFile('changedasyncfile.txt','utf-8',(err,data)=>{
+//     if(!err)
+//     {
+//         console.log(data);
+//     }
+// })
